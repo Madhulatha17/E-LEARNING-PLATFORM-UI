@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>E-Learn</h2>
+</nav>
+
+<div class="course-page">
+
+<h1>HTML & CSS Course</h1>
+
+<div class="video-container">
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube.com/embed/qz0aGYrrlhU"
+title="Course Video"
+allowfullscreen>
+</iframe>
+</div>
+
+<h2>Progress Tracking</h2>
+
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+
+<button onclick="updateProgress()">
+Mark Lesson Complete
+</button>
+
+<p id="percentage">0% Completed</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
